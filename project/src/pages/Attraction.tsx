@@ -1,7 +1,6 @@
-import React, { useState, useRef } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, X } from 'lucide-react';
-import ImageSlider from '../components/ImageSlider';
+import { X } from 'lucide-react';
 
 const attractions = [
   {
@@ -97,9 +96,9 @@ const attractions = [
       ],
       highlights: [
         'Beautiful cascading waterfalls',
-'Short trek through scenic trails',
-'Perfect for nature photography and relaxation',
-'Less crowded than other waterfalls'
+        'Short trek through scenic trails',
+        'Perfect for nature photography and relaxation',
+        'Less crowded than other waterfalls'
       ],
       note: 'September to March (post-monsoon greenery and water flow)'
     }
@@ -192,9 +191,9 @@ function Attraction() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative h-[300px] md:h-[400px] mb-8">
+      <div className="relative h-[300px] md:h-[400px] mb-8 mt-4">
         <div
-          className="absolute inset-0 bg-cover bg-center rounded-b-3xl overflow-hidden"
+          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
           style={{
             backgroundImage: 'url(assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg)',
           }}
@@ -210,12 +209,6 @@ function Attraction() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
-        <button
-          onClick={() => navigate('/')}
-          className="mb-8 md:mb-12 flex items-center text-gray-600 hover:text-gray-700"
-        >
-          <ArrowLeft className="mr-2" /> Back to Home
-        </button>
 
         {/* Attractions Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">

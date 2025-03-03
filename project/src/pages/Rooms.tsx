@@ -1,6 +1,5 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Wifi, Tv, Timer, UtensilsCrossed } from 'lucide-react';
+import { Wifi, Tv, Timer, UtensilsCrossed } from 'lucide-react';
 import ImageSlider from '../components/ImageSlider';
 
 const rooms = [
@@ -70,19 +69,13 @@ function Rooms() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 mt-8">
-        <button 
-          onClick={() => navigate('/')}
-          className="mb-8 md:mb-12 flex items-center text-gray-600 hover:text-gray-700"
-        >
-          <ArrowLeft className="mr-2" /> Back to Home
-        </button>
 
         {/* Room Sections */}
         {rooms.map((room, index) => (
           <div key={room.title} className="mb-16 md:mb-32">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">{room.title}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-            <div className="w-full aspect-[4/3]">
+            <div className="h-[250px] md:h-[300px]">
                 <ImageSlider images={room.images} />
               </div>
               <div className="space-y-6">

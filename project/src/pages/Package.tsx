@@ -1,6 +1,4 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
 import ImageSlider from '../components/ImageSlider';
 
 const packages = [
@@ -72,12 +70,6 @@ function Package() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 mt-8">
-        <button
-          onClick={() => navigate('/')}
-          className="mb-8 md:mb-12 flex items-center text-gray-600 hover:text-gray-700"
-        >
-          <ArrowLeft className="mr-2" /> Back to Home
-        </button>
 
         {packages.map((pkg, index) => (
           <div key={pkg.title} className="mb-16 md:mb-32">

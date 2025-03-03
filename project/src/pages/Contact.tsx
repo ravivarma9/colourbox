@@ -1,6 +1,5 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 function Contact() {
   const navigate = useNavigate();
@@ -22,12 +21,6 @@ function Contact() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
-        <button 
-          onClick={() => navigate('/')}
-          className="mb-8 flex items-center text-green-600 hover:text-green-700"
-        >
-          <ArrowLeft className="mr-2" /> Back to Home
-        </button>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Information */}

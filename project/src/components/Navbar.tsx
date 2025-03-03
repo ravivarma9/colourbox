@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Grid, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -29,24 +29,24 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Grid className="text-orange-500" size={32} />
-            <div>
-              <h1 className="text-xl font-bold text-gray-800">COLOURBOX</h1>
-              <span className="text-sm text-gray-600">HOME STAY</span>
-            </div>
+            <a href="/" className="w-8 h-8">
+              <img
+                src="https://via.placeholder.com/32"
+                alt="Logo"
+                className="w-8 h-8 object-cover"
+              />
+            </a>
           </div>
-          
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navItems.map(({ path, label }) => (
               <button
                 key={path}
                 onClick={() => handleNavigation(path)}
-                className={`relative px-2 py-1 text-sm transition-colors ${
-                  isActive(path)
-                    ? 'text-orange-600'
-                    : 'text-gray-600 hover:text-orange-600'
-                }`}
+                className={`relative px-2 py-1 text-sm transition-colors ${isActive(path)
+                  ? 'text-orange-600'
+                  : 'text-gray-600 hover:text-orange-600'
+                  }`}
               >
                 {label}
                 {isActive(path) && (
@@ -77,11 +77,10 @@ const Navbar = () => {
                 <button
                   key={path}
                   onClick={() => handleNavigation(path)}
-                  className={`px-2 py-2 text-sm transition-colors ${
-                    isActive(path)
-                      ? 'text-orange-600 bg-orange-50'
-                      : 'text-gray-600 hover:text-orange-600 hover:bg-orange-50'
-                  }`}
+                  className={`px-2 py-2 text-sm transition-colors ${isActive(path)
+                    ? 'text-orange-600 bg-orange-50'
+                    : 'text-gray-600 hover:text-orange-600 hover:bg-orange-50'
+                    }`}
                 >
                   {label}
                 </button>
