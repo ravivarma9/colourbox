@@ -1,5 +1,4 @@
 import React from 'react';
-import DoorCard from '../components/DoorCard';
 import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 
 const doors = [
@@ -53,11 +52,13 @@ function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Logo */}
         <div className="text-center mb-8 md:mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-            COLOURBOX
-            <span className="block text-lg md:text-xl text-gray-600">HOME STAY</span>
-          </h1>
+          <img 
+            src="assets/mainLogo.png" 
+            alt="Colourbox Logo" 
+            className="mx-auto h-24 md:h-28 object-contain"
+          />
         </div>
+
 
         {/* Door Frame Container */}
         <div className="relative max-w-4xl mx-auto">
@@ -75,16 +76,20 @@ function Home() {
             {/* Cards Grid - Always 2 columns */}
             <div className="grid grid-cols-2 gap-4 md:gap-6">
               {doors.map((door) => (
-                <div key={door.title} className="relative">
-                  <DoorCard
-                    title={door.title}
-                    bgColor={door.bgColor}
-                    path={door.path}
-                    imageUrl={door.imageUrl}
-                  />
-                  {/* Overlay */}
-                  <div className={`absolute inset-0 ${door.overlayColor} opacity-60 rounded-xl pointer-events-none`} />
-                </div>
+                <a key={door.title} href={door.path} className="relative block rounded-xl overflow-hidden group">
+                  {/* Background Image */}
+                  <img src={door.imageUrl} alt={door.title} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" />
+                  
+                  {/* Overlay Color */}
+                  <div className={`absolute inset-0 ${door.overlayColor} opacity-60 transition-opacity duration-300 group-hover:opacity-70`} />
+
+                  {/* Title Text - Ensuring it's on Top */}
+                  <div className="absolute inset-0 flex items-center justify-center z-10">
+                    <h2 className="text-white text-2xl md:text-3xl font-bold text-center drop-shadow-lg">
+                      {door.title}
+                    </h2>
+                  </div>
+                </a>
               ))}
             </div>
           </div>
