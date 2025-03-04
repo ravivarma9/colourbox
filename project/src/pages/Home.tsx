@@ -1,7 +1,4 @@
-import React from 'react';
 import DoorCard from '../components/DoorCard';
-import { Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
-
 const doors = [
   {
     title: 'About us',
@@ -53,17 +50,18 @@ function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Logo */}
         <div className="text-center mb-8 md:mb-12">
-          <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-            COLOURBOX
-            <span className="block text-lg md:text-xl text-gray-600">HOME STAY</span>
-          </h1>
+          <img
+            src="assets/Deluxe_room_with_kitchen/logo.png"
+            alt="Colourbox Home Stay"
+            className="mx-auto w-40 md:w-56"
+          />
         </div>
 
         {/* Door Frame Container */}
         <div className="relative max-w-4xl mx-auto">
           {/* Main Door Frame */}
           <div className="absolute inset-0 bg-gradient-to-r from-gray-300 to-gray-200 rounded-[40px] transform -skew-x-1 shadow-2xl" />
-          
+
           {/* Door Content */}
           <div className="relative bg-white rounded-[32px] p-3 md:p-8 shadow-inner">
             {/* Door Handle */}
@@ -84,6 +82,10 @@ function Home() {
                   />
                   {/* Overlay */}
                   <div className={`absolute inset-0 ${door.overlayColor} opacity-60 rounded-xl pointer-events-none`} />
+                  {/* Title on top and clickable */}
+                  <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                    <h2 className="text-white text-xl font-bold">{door.title}</h2>
+                  </div>
                 </div>
               ))}
             </div>

@@ -22,7 +22,6 @@ const DoorCard: React.FC<DoorCardProps> = ({ title, bgColor, path, imageUrl }) =
       >
         <div className="absolute inset-0 bg-black bg-opacity-30 transition-opacity hover:bg-opacity-20" />
         <div className="absolute inset-0 flex items-center justify-center p-2">
-          <h3 className="text-base md:text-2xl font-bold text-white text-center drop-shadow-lg">{title}</h3>
         </div>
       </div>
     </div>
