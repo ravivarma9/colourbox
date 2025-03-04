@@ -2,45 +2,45 @@ import DoorCard from '../components/DoorCard';
 const doors = [
   {
     title: 'About us',
-    bgColor: 'bg-gradient-to-br from-yellow-400 to-yellow-600',
+    bgColor: 'bg-[#f1c712]',
     path: '/about',
     imageUrl: 'assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg',
-    overlayColor: 'bg-yellow-400'
+    overlayColor: 'bg-[#f1c712]'
   },
   {
     title: 'Rooms',
-    bgColor: 'bg-gradient-to-br from-orange-400 to-orange-600',
+    bgColor: 'bg-[#f26624]',
     path: '/rooms',
     imageUrl: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg',
-    overlayColor: 'bg-orange-500'
+    overlayColor: 'bg-[#f26624]'
   },
   {
     title: 'Classes',
-    bgColor: 'bg-gradient-to-br from-red-400 to-red-600',
+    bgColor: 'bg-[#ec1f27]',
     path: '/classes',
     imageUrl: 'assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg',
-    overlayColor: 'bg-red-500'
+    overlayColor: 'bg-[#ec1f27]'
   },
   {
     title: 'Package',
-    bgColor: 'bg-gradient-to-br from-violet-400 to-violet-600',
+    bgColor: 'bg-[#803f98]',
     path: '/package',
     imageUrl: 'assets/unnamed.jpg',
-    overlayColor: 'bg-violet-600'
+    overlayColor: 'bg-[#803f98]'
   },
   {
     title: 'Attraction',
-    bgColor: 'bg-gradient-to-br from-blue-400 to-blue-600',
+    bgColor: 'bg-[#1d4499]',
     path: '/attraction',
     imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=500',
-    overlayColor: 'bg-blue-600'
+    overlayColor: 'bg-[#1d4499]'
   },
   {
     title: 'Contact',
-    bgColor: 'bg-gradient-to-br from-green-400 to-green-600',
+    bgColor: 'bg-[#13a24b]',
     path: '/contact',
     imageUrl: 'https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=500',
-    overlayColor: 'bg-green-400'
+    overlayColor: 'bg-[#13a24b]'
   }
 ];
 
@@ -50,12 +50,13 @@ function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Logo */}
         <div className="text-center mb-8 md:mb-12">
-          <img
-            src="assets/Deluxe_room_with_kitchen/logo.png"
-            alt="Colourbox Home Stay"
-            className="mx-auto w-40 md:w-56"
+          <img 
+            src="assets/mainLogo.png" 
+            alt="Colourbox Logo" 
+            className="mx-auto h-24 md:h-28 object-contain"
           />
         </div>
+
 
         {/* Door Frame Container */}
         <div className="relative max-w-4xl mx-auto">

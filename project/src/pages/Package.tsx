@@ -49,7 +49,7 @@ const packages = [
 function Package() {
   const navigate = useNavigate();
   const openWhatsApp = () => {
-    window.open('https://wa.me/919883222433', '_blank');
+    window.open('https://wa.me/918791231999', '_blank');
   };
   
   return (
