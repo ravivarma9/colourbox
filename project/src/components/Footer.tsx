@@ -3,7 +3,7 @@ import { Facebook, Instagram, Twitter, Youtube, Phone } from 'lucide-react';
 
 function Footer() {
   const openWhatsApp = () => {
-    window.open('https://wa.me/919883222433', '_blank');
+    window.open('https://wa.me/+918791231999', '_blank');
   };
 
   return (
@@ -16,7 +16,7 @@ function Footer() {
           
           <div className="flex space-x-6">
             <a 
-              href="https://facebook.com/colourboxhomestay" 
+              href="https://m.facebook.com/profile.php?id=61572516806851" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700 transition-colors"
@@ -24,7 +24,7 @@ function Footer() {
               <Facebook size={24} />
             </a>
             <a 
-              href="https://instagram.com/colourboxhomestay" 
+              href="https://www.instagram.com/colourbox_rishikesh/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-pink-600 hover:text-pink-700 transition-colors"
@@ -40,7 +40,7 @@ function Footer() {
               <Twitter size={24} />
             </a>
             <a 
-              href="https://youtube.com/@colourboxhomestay" 
+              href="https://www.youtube.com/@ColourBox_Rishikesh" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-red-600 hover:text-red-700 transition-colors"

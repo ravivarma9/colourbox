@@ -30,11 +30,11 @@ function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Phone className="text-green-600 mr-3" />
-                  <span>+91 879 123 1999 | 988 322 2433</span>
+                  <span>+91 879 123 1999 </span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="text-green-600 mr-3" />
-                  <span>info@colourboxhomestay.in</span>
+                  <span>colourboxhomestay@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="text-green-600 mr-3" />
