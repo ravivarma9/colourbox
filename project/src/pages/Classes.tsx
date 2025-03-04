@@ -5,25 +5,31 @@ const classes = [
   {
     title: 'Yoga Classes',
     images: [
-      { url: 'assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg', title: 'Yoga Class' },
-      { url: 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?auto=format&fit=crop&q=80&w=800', title: 'Meditation' },
-      { url: 'https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?auto=format&fit=crop&q=80&w=800', title: 'Practice' }
+      { url: 'assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg', title: 'Yoga Class' }
     ],
     description: {
-      points: ['Improve flexibility', 'Find inner peace'],
-      notes: ['Bring your own mat', 'Wear comfortable clothing']
+      points: ['Gentle flows, mindful breathing, and deep stretches for all levels.', 'Learn to connect your body and mind while building strength and flexibility.'],
+      notes: ['Relieve stress, increase focus, and boost overall health.', 'Perfect for beginners or seasoned practitioners.']
     }
   },
   {
-    title: 'Cooking Workshop',
+    title: 'Music Classes',
     images: [
-      { url: 'assets/rishikesh-destination-yoga-india.jpg', title: 'Cooking Class' },
-      { url: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800', title: 'Ingredients' },
-      { url: 'https://images.unsplash.com/photo-1556910638-6cdac31d44dc?auto=format&fit=crop&q=80&w=800', title: 'Preparation' }
+      { url: 'assets/Deluxe_room_with_kitchen/music.jpg', title: 'Music Class' }
     ],
     description: {
-      points: ['Learn traditional recipes', 'All ingredients provided'],
-      notes: ['Aprons provided', 'Take home your creations']
+      points: ['Explore rhythm, sound, and melody with classes that focus on various instruments, singing, and music theory.', 'Group drum circles, solo performances, and collaborative jam sessions.'],
+      notes: ['Unlock your musical potential, whether you are a beginner or experienced.', 'Use music as a form of self-expression and connection.']
+    }
+  },
+  {
+    title: 'Art  Classes',
+    images: [
+      { url: 'assets/Deluxe_room_with_kitchen/art.jpg', title: 'Cooking Class' }
+    ],
+    description: {
+      points: ['Get hands-on with painting, drawing, sculpture, and mixed media.', 'Focus on creativity, exploration, and expression.'],
+      notes: ['Build your artistic skills, develop your personal style, and engage in therapeutic creativity.', 'Perfect for beginners and anyone looking to rediscover their creative spark.']
     }
   }
 ];
@@ -64,7 +70,7 @@ function Classes() {
                     <li key={i}>{point}</li>
                   ))}
                 </ul>
-                <h3 className="mt-6 font-semibold text-lg">Class Notes</h3>
+                <h3 className="mt-6 font-semibold text-lg">Class Benefits</h3>
                 <ul className="list-disc list-inside text-gray-700">
                   {classItem.description.notes.map((note, i) => (
                     <li key={i}>{note}</li>

@@ -29,11 +29,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <a href="/" className="w-8 h-8">
+            <a href="/" className="w-30 h-15">
               <img
-                src="https://via.placeholder.com/32"
+                src="assets/Deluxe_room_with_kitchen/logo.png"
                 alt="Logo"
-                className="w-8 h-8 object-cover"
+                className="w-55 h-12 object-cover"
               />
             </a>
           </div>

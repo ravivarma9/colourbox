@@ -75,7 +75,7 @@ function Rooms() {
           <div key={room.title} className="mb-16 md:mb-32">
             <h2 className="text-2xl md:text-3xl font-bold mb-6 md:mb-8">{room.title}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-            <div className="h-[250px] md:h-[300px]">
+            <div className="h-[250px] md:h-[400px]">
                 <ImageSlider images={room.images} />
               </div>
               <div className="space-y-6">
