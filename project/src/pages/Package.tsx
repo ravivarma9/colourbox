@@ -30,18 +30,19 @@ const packages = [
       { url: 'https://images.unsplash.com/photo-1551632436-cbf6c5a17a7e?auto=format&fit=crop&q=80&w=800', title: 'Mountain View' },
       { url: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800', title: 'Hiking' }
     ],
-    description: 'Rishikesh weekend packages – Rishikesh is an ideal tourist destination for weekend getaways. There are a variety of adventure activities that make your weekend memorable. Apart from river rafting in the Ganges, you can also enjoy local sightseeing, trekking and various types of jumping etc. If you believe that yoga is good for health, then there is also an option to attend a yoga class on the banks of the Ganges.',
+    description: 'Weekend Hiking & Trekking Packages – Explore the Untamed Beauty of Rishikesh Escape the chaos of city life and embark on an unforgettable journey through the lush forests, hidden waterfalls, and breathtaking Himalayan trails of Rishikesh. Our weekend hiking & trekking packages are perfect for nature lovers, adventure seekers, and those looking for a refreshing getaway.',
     details: {
-      camps: 'Eagle Nest / Camp Shivpuri',
-      checkIn: '10:00 AM',
-      checkOut: '11:00 AM',
-      duration: '1 Night 2 Days'
+      camps: 'Kunjapuri Sunrise Trek / Neer Garh Waterfall Hike / Patna Waterfall Trek / Phool Chatti & Gaurikund Trail',
+      checkIn: 'Expert Local Guides with in-depth knowledge of the region. / Safe & Well-Organized Trips with top-quality gear. / Customizable Packages – Choose your pace and difficulty level. / Affordable & Transparent Pricing – No hidden costs!',
+      checkOut: '04:00 AM',
+      duration: '1 Day / varies based on trek'
     },
     included: [
-      'All Meals',
-      'River Rafting – 16 Km',
-      'Evening bonfire',
-      'Evening Music with Veg. Snacks'
+      'Scenic Treks – Choose from beginner-friendly nature walks to challenging mountain trails.',
+      'Hidden Waterfalls & Caves – Discover secret spots only locals know!',
+      'Yoga & Meditation Add-ons – Combine adventure with mindfulness for a holistic experience',
+      'Camping Under the Stars – Cozy bonfire nights with delicious local food.',
+      'Hassle-Free Travel – Comfortable transport options available.'
     ]
   }
 ];
@@ -94,11 +95,11 @@ function Package() {
                       <p>{pkg.details.camps}</p>
                     </div>
                     <div>
-                      <p className="text-gray-600">Standard Check-in time:</p>
+                      <p className="text-gray-600">Why Choose Us?</p>
                       <p>{pkg.details.checkIn}</p>
                     </div>
                     <div>
-                      <p className="text-gray-600">Standard Check-out time:</p>
+                      <p className="text-gray-600">Standard Check-in time:</p>
                       <p>{pkg.details.checkOut}</p>
                     </div>
                     <div>

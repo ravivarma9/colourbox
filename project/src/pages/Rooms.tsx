@@ -3,8 +3,8 @@ import ImageSlider from '../components/ImageSlider';
 
 const rooms = [
   {
-    title: 'Standard Room',
-    mainDescription: 'Enjoy a comfortable and peaceful stay in our Standard Room, ideal for solo travelers and couples. Located in the heart of Rishikesh, this room offers:',
+    title: 'Deluxe Room',
+    mainDescription: 'Our Deluxe Room offers the perfect combination of luxury and tranquility, ensuring a comfortable stay in the spiritual and scenic town of Rishikesh. Designed with a modern yet cozy aesthetic, the room features a spacious layout, making it ideal for solo travelers, couples, or small families.',
     images: [
 
       { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_1.jpg', title: 'Deluxe Room' },
@@ -17,19 +17,21 @@ const rooms = [
 
     ],
     description: {
-      points: ['Comfortable Double Bed for restful sleep', 
-                'Private Bathroom with 24/7 hot water',
-                'Free WiFi for seamless connectivity',
-                'Ceiling Fan & Ample Storage for convenience',
-                'Serene Ambiance perfect for relaxation'
+      points: ['Enjoy restful sleep with high-quality bedding and soft pillows.', 
+                'Breathe in the fresh air and admire beautiful views of the surrounding hills or garden.',
+                'Stay comfortable in any season.',
+                'Stay connected for work or leisure.',
+                'Featuring modern fittings, hot & cold water, and complimentary toiletries.',
+                'Equipped with basic cooking facilities, perfect for guests who prefer to prepare their own meals.',
+                'Our attentive staff is always ready to assist you.',
+                'Start your mornings with a fresh cup at your convenience.'
       ],
-      extraDescription: ['Just minutes from the Ganges, yoga centers, and adventure activities, this room is a perfect blend of comfort and affordability.', 
-        'Book your stay now and experience Rishikesh like never before!'
+      extraDescription: ['Perfect for relaxation after a day of adventure or spiritual exploration, our Deluxe Room is designed to make your stay in Rishikesh truly memorable.'
       ]
     }
   },
   {
-    title: 'Exclusive Room',
+    title: 'Standard Room',
     mainDescription: 'Enjoy a comfortable and peaceful stay in our Standard Room, ideal for solo travelers and couples. Located in the heart of Rishikesh, this room offers:',
     images: [
 
