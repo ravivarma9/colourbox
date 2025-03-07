@@ -104,7 +104,7 @@ function Rooms() {
                     onClick={openWhatsApp}
                     className="w-[150px] bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition-colors"
                   >
-                    Join Now
+                    Book Now
                   </button>
                 </div>
               </div>
