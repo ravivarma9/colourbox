@@ -52,6 +52,29 @@ const rooms = [
       ]
     }
   },
+    {
+    title: 'Dorm (Sleeps-5)',
+    mainDescription: 'Girls Dorm – Safe, Comfortable & Budget-Friendly Designed exclusively for female travelers, our Girls Dormitory offers a safe, clean, and social stay in the heart of Rishikesh.',
+    images: [
+      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_1.jpg', title: 'Dorm Room' },
+      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_2.jpg', title: 'Dorm Room' },
+      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_3.jpg', title: 'Dorm Room' },
+      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_4.jpg', title: 'Dorm Room' },
+      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_5.jpg', title: 'Dorm Room' },
+
+    ],
+    description: {
+      points: ['Cozy Bunk Beds with fresh linens', 
+        'Private Lockers for secure storage',
+        'Shared Clean Bathrooms with 24/7 hot water',
+        'Free WiFi for seamless connectivity',
+        'Peaceful & Secure Environment'
+      ],
+      extraDescription: ['Located just minutes from the Ganges, yoga retreats, and adventure spots, this dorm is perfect for solo female travelers seeking comfort and community at an affordable price.', 
+        'Book your stay now for a worry-free experience in Rishikesh!'
+      ]
+    }
+  }
 ];
 
 function Rooms() {
