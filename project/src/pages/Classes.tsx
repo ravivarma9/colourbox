@@ -5,7 +5,7 @@ const classes = [
   {
     title: 'Yoga Classes',
     images: [
-      { url: 'assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg', title: 'Yoga Class' }
+      { url: './assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg', title: 'Yoga Class' }
     ],
     description: {
       points: ['Gentle flows, mindful breathing, and deep stretches for all levels.', 'Learn to connect your body and mind while building strength and flexibility.'],
@@ -15,7 +15,7 @@ const classes = [
   {
     title: 'Music Classes',
     images: [
-      { url: 'assets/Deluxe_room_with_kitchen/music.jpg', title: 'Music Class' }
+      { url: './assets/Deluxe_room_with_kitchen/music.jpg', title: 'Music Class' }
     ],
     description: {
       points: ['Explore rhythm, sound, and melody with classes that focus on various instruments, singing, and music theory.', 'Group drum circles, solo performances, and collaborative jam sessions.'],
@@ -25,7 +25,7 @@ const classes = [
   {
     title: 'Art  Classes',
     images: [
-      { url: 'assets/Deluxe_room_with_kitchen/art.jpg', title: 'Cooking Class' }
+      { url: './assets/Deluxe_room_with_kitchen/art.jpg', title: 'Cooking Class' }
     ],
     description: {
       points: ['Get hands-on with painting, drawing, sculpture, and mixed media.', 'Focus on creativity, exploration, and expression.'],
@@ -46,7 +46,7 @@ function Classes() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
           style={{
-            backgroundImage: 'url(assets/Rishikesh-to-Bali-2.jpg)',
+            backgroundImage: 'url(./assets/Rishikesh-to-Bali-2.jpg)',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />

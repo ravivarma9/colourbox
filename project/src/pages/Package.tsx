@@ -5,7 +5,7 @@ const packages = [
   {
     title: 'Rishikesh Weekend Packages',
     images: [
-      { url: 'assets/best-rafting-in-rishikesh.jpg', title: 'River Rafting' },
+      { url: './assets/best-rafting-in-rishikesh.jpg', title: 'River Rafting' },
       { url: 'https://images.unsplash.com/photo-1623141624741-b97b6b3fbb21?auto=format&fit=crop&q=80&w=800', title: 'Camping' },
       { url: 'https://images.unsplash.com/photo-1623141624742-0a8f32dcfd92?auto=format&fit=crop&q=80&w=800', title: 'Evening Bonfire' }
     ],
@@ -26,7 +26,7 @@ const packages = [
   {
     title: 'Rishikesh Trekking Packages',
     images: [
-      { url: 'assets/unnamed.jpg', title: 'Trekking' },
+      { url: './assets/unnamed.jpg', title: 'Trekking' },
       { url: 'https://images.unsplash.com/photo-1551632436-cbf6c5a17a7e?auto=format&fit=crop&q=80&w=800', title: 'Mountain View' },
       { url: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800', title: 'Hiking' }
     ],
@@ -60,7 +60,7 @@ function Package() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
           style={{
-            backgroundImage: 'url(assets/trekking-in-rishikesh-1.jpg)',
+            backgroundImage: 'url(./assets/trekking-in-rishikesh-1.jpg)',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />

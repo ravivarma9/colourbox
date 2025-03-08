@@ -6,13 +6,13 @@ const attractions = [
   {
     id: 'laxman-jhula',
     title: 'Laxman Jhula',
-    image: 'assets/Deluxe_room_with_kitchen/about-tapovan.jpg',
+    image: './assets/Deluxe_room_with_kitchen/about-tapovan.jpg',
     distance: 'Around 1.2 km',
     description: 'Laxman Jhula is an iconic suspension bridge over the Ganges, connecting Tapovan and Jonk in Rishikesh. According to legend, Lord Laxman crossed the river at this spot on a jute rope, giving the bridge its name. The bridge offers stunning views of the river, temples, and bustling local markets.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg', title: 'Bridge View' },
-        { url: 'assets/Deluxe_room_with_kitchen/about-tapovan.jpg', title: 'River View' }
+        { url: './assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg', title: 'Bridge View' },
+        { url: './assets/Deluxe_room_with_kitchen/about-tapovan.jpg', title: 'River View' }
       ],
       highlights: [
         '450-ft-long iron suspension bridge',
@@ -26,13 +26,13 @@ const attractions = [
   {
     id: 'beatles-ashram',
     title: 'The Beatles Ashram (Chaurasi Kutiya)',
-    image: 'assets/Deluxe_room_with_kitchen/Beatles_Ashram,_Rishikesh,_India_(front).jpg',
+    image: './assets/Deluxe_room_with_kitchen/Beatles_Ashram,_Rishikesh,_India_(front).jpg',
     distance: 'Around 1.2 km',
     description: 'This abandoned ashram gained global fame when The Beatles stayed here in 1968 to learn Transcendental Meditation under Maharishi Mahesh Yogi. Now a heritage site, it features graffiti art, meditation huts, and a tranquil forest setting.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/Beatles_Ashram,_Rishikesh,_India_(front).jpg', title: 'Ashram Entrance' },
-        { url: 'assets/Deluxe_room_with_kitchen/bhojbasa-8842343.webp', title: 'Meditation Caves' }
+        { url: './assets/Deluxe_room_with_kitchen/Beatles_Ashram,_Rishikesh,_India_(front).jpg', title: 'Ashram Entrance' },
+        { url: './assets/Deluxe_room_with_kitchen/bhojbasa-8842343.webp', title: 'Meditation Caves' }
       ],
       highlights: [
         'Beatles-themed murals and graffiti',
@@ -46,13 +46,13 @@ const attractions = [
   {
     id: 'triveni-ghat',
     title: 'Triveni Ghat',
-    image: 'assets/Deluxe_room_with_kitchen/Triveni_Ghat_Rishikesh_02.jpg',
+    image: './assets/Deluxe_room_with_kitchen/Triveni_Ghat_Rishikesh_02.jpg',
     distance: 'Around 1.2 km',
     description: 'A sacred bathing ghat where the three rivers—Ganga, Yamuna, and Saraswati—are believed to converge. The evening Ganga Aarti here is a mesmerizing experience of chants, lamps, and devotion.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/Triveni_Ghat_Rishikesh_02.jpg', title: 'Evening Aarti' },
-        { url: 'assets/Deluxe_room_with_kitchen/licensed-image.jpeg', title: 'Ghat View' }
+        { url: './assets/Deluxe_room_with_kitchen/Triveni_Ghat_Rishikesh_02.jpg', title: 'Evening Aarti' },
+        { url: './assets/Deluxe_room_with_kitchen/licensed-image.jpeg', title: 'Ghat View' }
       ],
       highlights: [
         'Daily Ganga Aarti at sunset',
@@ -66,13 +66,13 @@ const attractions = [
   {
     id: 'neelkanth',
     title: 'Shree Neelkanth Mahadev Temple',
-    image: 'assets/Deluxe_room_with_kitchen/Tungnath-temple-Opening.jpg',
+    image: './assets/Deluxe_room_with_kitchen/Tungnath-temple-Opening.jpg',
     distance: 'Around 1.2 km',
     description: 'A revered Shiva temple located at 1,330 meters above sea level, about 32 km from Rishikesh. It marks the mythological site where Lord Shiva consumed poison during the churning of the ocean (Samudra Manthan).',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/Tungnath-temple-Opening.jpg', title: 'Temple View' },
-        { url: 'assets/Deluxe_room_with_kitchen/Gangotri-glacier-state-one-Himalayas-India-Uttarakhand.webp', title: 'Mountain View' }
+        { url: './assets/Deluxe_room_with_kitchen/Tungnath-temple-Opening.jpg', title: 'Temple View' },
+        { url: './assets/Deluxe_room_with_kitchen/Gangotri-glacier-state-one-Himalayas-India-Uttarakhand.webp', title: 'Mountain View' }
       ],
       highlights: [
         'Sacred temple dedicated to Lord Shiva',
@@ -86,13 +86,13 @@ const attractions = [
   {
     id: 'waterfall',
     title: 'Garud Chatti Waterfall',
-    image: 'assets/Deluxe_room_with_kitchen/neer-waterfall-rishikesh.jpg',
+    image: './assets/Deluxe_room_with_kitchen/neer-waterfall-rishikesh.jpg',
     distance: 'Around 1.2 km',
     description: 'A hidden gem near Neelkanth Road, this waterfall is a serene escape into nature, surrounded by dense forests and offering a refreshing dip in the cool waters.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/neer-waterfall-rishikesh.jpg', title: 'Waterfall' },
-        { url: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Trek Path' }
+        { url: './assets/Deluxe_room_with_kitchen/neer-waterfall-rishikesh.jpg', title: 'Waterfall' },
+        { url: './assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Trek Path' }
       ],
       highlights: [
         'Beautiful cascading waterfalls',
@@ -106,13 +106,13 @@ const attractions = [
   {
     id: 'rishikund',
     title: 'Rishikund',
-    image: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg',
+    image: './assets/Deluxe_room_with_kitchen/Rishikund.jpg',
     distance: 'Around 1.2 km',
     description: 'A sacred pond near Triveni Ghat, believed to have been blessed by the River Goddess Yamuna. It reflects the image of Raghunath Temple and has deep spiritual significance.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Pond View' },
-        { url: 'assets/Deluxe_room_with_kitchen/ganga-beach-rishikesh-tourism-entry-ticket-price.jpg', title: 'Temple View' }
+        { url: './assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Pond View' },
+        { url: './assets/Deluxe_room_with_kitchen/ganga-beach-rishikesh-tourism-entry-ticket-price.jpg', title: 'Temple View' }
       ],
       highlights: [
         'Historical and religious importance',
@@ -126,13 +126,13 @@ const attractions = [
   {
     id: 'kunjariTemple',
     title: 'Kunjapuri Temple',
-    image: 'assets/Deluxe_room_with_kitchen/kunjapuri-temple-03.jpg',
+    image: './assets/Deluxe_room_with_kitchen/kunjapuri-temple-03.jpg',
     distance: 'Around 1.2 km',
     description: 'A hilltop temple offering breathtaking sunrise views of the Himalayas and the Ganges valley.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/kunjapuri-temple-03.jpg', title: 'Pond View' },
-        { url: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
+        { url: './assets/Deluxe_room_with_kitchen/kunjapuri-temple-03.jpg', title: 'Pond View' },
+        { url: './assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
       ],
       note: 'October to April (for clear sunrise views)'
     }
@@ -140,13 +140,13 @@ const attractions = [
   {
     id: 'vashishtaCaves',
     title: 'Vashishta Caves',
-    image: 'assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg',
+    image: './assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg',
     distance: 'Around 1.2 km',
     description: 'An ancient meditation cave along the Ganges, known for its deep spiritual aura and peaceful atmosphere.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg', title: 'Pond View' },
-        { url: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
+        { url: './assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg', title: 'Pond View' },
+        { url: './assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
       ],
       note: 'October to March (less humid, better river views)'
     }
@@ -154,13 +154,13 @@ const attractions = [
   {
     id: 'patnaWaterfall',
     title: 'Patna Waterfall',
-    image: 'assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg',
+    image: './assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg',
     distance: 'Around 1.2 km',
     description: 'A picturesque waterfall named after a village nearby, famous for its limestone caves and serene surroundings.',
     details: {
       images: [
-        { url: 'assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg', title: 'Pond View' },
-        { url: 'assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
+        { url: './assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg', title: 'Pond View' },
+        { url: './assets/Deluxe_room_with_kitchen/Rishikund.jpg', title: 'Temple View' }
       ],
       note: 'September to February (after monsoon for full water flow)'
     }
@@ -195,7 +195,7 @@ function Attraction() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
           style={{
-            backgroundImage: 'url(assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg)',
+            backgroundImage: 'url(./assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg)',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />

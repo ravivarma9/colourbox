@@ -31,7 +31,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <a href="/" className="w-30 h-15">
               <img
-                src="assets/Deluxe_room_with_kitchen/logo.png"
+                src="./assets/Deluxe_room_with_kitchen/logo.png"
                 alt="Logo"
                 className="w-55 h-12 object-cover"
               />

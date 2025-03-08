@@ -7,12 +7,12 @@ const rooms = [
     mainDescription: 'Our Deluxe Room offers the perfect combination of luxury and tranquility, ensuring a comfortable stay in the spiritual and scenic town of Rishikesh. Designed with a modern yet cozy aesthetic, the room features a spacious layout, making it ideal for solo travelers, couples, or small families.',
     images: [
 
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_1.jpg', title: 'Deluxe Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_2.jpg', title: 'Deluxe Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_3.jpg', title: 'Deluxe Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg', title: 'Deluxe Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_Bathroom.jpg', title: 'Deluxe Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_Kitchen.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_1.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_2.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_3.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_Bathroom.jpg', title: 'Deluxe Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Deluxe_Room_Kitchen.jpg', title: 'Deluxe Room' },
 
 
     ],
@@ -35,11 +35,11 @@ const rooms = [
     mainDescription: 'Enjoy a comfortable and peaceful stay in our Standard Room, ideal for solo travelers and couples. Located in the heart of Rishikesh, this room offers:',
     images: [
 
-      { url: 'assets/Deluxe_room_with_kitchen/Standard_Room_1.jpg', title: 'Standard Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Standard_Room_2.jpg', title: 'Standard Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Standard_Room_3.jpg', title: 'Standard Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Standard_Room_4.jpg', title: 'Standard Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Standard_Room_Bathroom.jpg', title: 'Standard Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Standard_Room_1.jpg', title: 'Standard Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Standard_Room_2.jpg', title: 'Standard Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Standard_Room_3.jpg', title: 'Standard Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Standard_Room_4.jpg', title: 'Standard Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Standard_Room_Bathroom.jpg', title: 'Standard Room' },
 
     ],
     description: {
@@ -58,11 +58,11 @@ const rooms = [
     title: 'Dorm (Sleeps-5)',
     mainDescription: 'Girls Dorm – Safe, Comfortable & Budget-Friendly Designed exclusively for female travelers, our Girls Dormitory offers a safe, clean, and social stay in the heart of Rishikesh.',
     images: [
-      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_1.jpg', title: 'Dorm Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_2.jpg', title: 'Dorm Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_3.jpg', title: 'Dorm Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_4.jpg', title: 'Dorm Room' },
-      { url: 'assets/Deluxe_room_with_kitchen/Dorm_Room_5.jpg', title: 'Dorm Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Dorm_Room_1.jpg', title: 'Dorm Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Dorm_Room_2.jpg', title: 'Dorm Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Dorm_Room_3.jpg', title: 'Dorm Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Dorm_Room_4.jpg', title: 'Dorm Room' },
+      { url: './assets/Deluxe_room_with_kitchen/Dorm_Room_5.jpg', title: 'Dorm Room' },
 
     ],
     description: {
@@ -92,7 +92,7 @@ function Rooms() {
         <div
           className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
           style={{
-            backgroundImage: 'url(assets/Deluxe_room_with_kitchen/Standard_Room_1.jpg)',
+            backgroundImage: 'url(./assets/Deluxe_room_with_kitchen/Standard_Room_1.jpg)',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40" />

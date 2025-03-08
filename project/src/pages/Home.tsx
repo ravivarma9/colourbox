@@ -4,28 +4,28 @@ const doors = [
     title: 'About us',
     bgColor: 'bg-[#f1c712]',
     path: '/about',
-    imageUrl: 'assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg',
+    imageUrl: './assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg',
     overlayColor: 'bg-[#f1c712]'
   },
   {
     title: 'Rooms',
     bgColor: 'bg-[#f26624]',
     path: '/rooms',
-    imageUrl: 'assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg',
+    imageUrl: './assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg',
     overlayColor: 'bg-[#f26624]'
   },
   {
     title: 'Classes',
     bgColor: 'bg-[#ec1f27]',
     path: '/classes',
-    imageUrl: 'assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg',
+    imageUrl: './assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg',
     overlayColor: 'bg-[#ec1f27]'
   },
   {
     title: 'Package',
     bgColor: 'bg-[#803f98]',
     path: '/package',
-    imageUrl: 'assets/unnamed.jpg',
+    imageUrl: './assets/unnamed.jpg',
     overlayColor: 'bg-[#803f98]'
   },
   {
@@ -51,7 +51,7 @@ function Home() {
         {/* Logo */}
         <div className="text-center mb-8 md:mb-12">
           <img 
-            src="assets/mainLogo.png" 
+            src="./assets/mainLogo.png" 
             alt="Colourbox Homestay " 
             className="mx-auto h-24 md:h-28 object-contain"
           />
