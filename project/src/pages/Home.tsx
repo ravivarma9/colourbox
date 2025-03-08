@@ -1,17 +1,20 @@
 import DoorCard from '../components/DoorCard';
+import img1 from "/assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg";
+import img2 from "/assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg";
+
 const doors = [
   {
     title: 'About us',
     bgColor: 'bg-[#f1c712]',
     path: '/about',
-    imageUrl: './assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg',
+    imageUrl: img1,
     overlayColor: 'bg-[#f1c712]'
   },
   {
     title: 'Rooms',
     bgColor: 'bg-[#f26624]',
     path: '/rooms',
-    imageUrl: './assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg',
+    imageUrl: img2,
     overlayColor: 'bg-[#f26624]'
   },
   {
