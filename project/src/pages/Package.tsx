@@ -1,13 +1,19 @@
 import { useNavigate } from 'react-router-dom';
 import ImageSlider from '../components/ImageSlider';
 
+import img1 from "/assets/best-rafting-in-rishikesh.jpg";
+import img2 from "/assets/unnamed.jpg";
+import img6 from "/assets/trekking-in-rishikesh-1.jpg";
+
+
 const packages = [
   {
     title: 'Rishikesh Weekend Packages',
     images: [
-      { url: './assets/best-rafting-in-rishikesh.jpg', title: 'River Rafting' },
-      { url: 'https://images.unsplash.com/photo-1623141624741-b97b6b3fbb21?auto=format&fit=crop&q=80&w=800', title: 'Camping' },
-      { url: 'https://images.unsplash.com/photo-1623141624742-0a8f32dcfd92?auto=format&fit=crop&q=80&w=800', title: 'Evening Bonfire' }
+      { url: img1, title: 'River Rafting' }
+      // ,
+      // { url: 'https://images.unsplash.com/photo-1623141624741-b97b6b3fbb21?auto=format&fit=crop&q=80&w=800', title: 'Camping' },
+      // { url: 'https://images.unsplash.com/photo-1623141624742-0a8f32dcfd92?auto=format&fit=crop&q=80&w=800', title: 'Evening Bonfire' }
     ],
     description: 'Rishikesh weekend packages – Rishikesh is an ideal tourist destination for weekend getaways. There are a variety of adventure activities that make your weekend memorable. Apart from river rafting in the Ganges, you can also enjoy local sightseeing, trekking and various types of jumping etc. If you believe that yoga is good for health, then there is also an option to attend a yoga class on the banks of the Ganges.',
     details: {
@@ -26,9 +32,10 @@ const packages = [
   {
     title: 'Rishikesh Trekking Packages',
     images: [
-      { url: './assets/unnamed.jpg', title: 'Trekking' },
-      { url: 'https://images.unsplash.com/photo-1551632436-cbf6c5a17a7e?auto=format&fit=crop&q=80&w=800', title: 'Mountain View' },
-      { url: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800', title: 'Hiking' }
+      { url: img2, title: 'Trekking' }
+      // ,
+      // { url: 'https://images.unsplash.com/photo-1551632436-cbf6c5a17a7e?auto=format&fit=crop&q=80&w=800', title: 'Mountain View' },
+      // { url: 'https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&q=80&w=800', title: 'Hiking' }
     ],
     description: 'Weekend Hiking & Trekking Packages – Explore the Untamed Beauty of Rishikesh Escape the chaos of city life and embark on an unforgettable journey through the lush forests, hidden waterfalls, and breathtaking Himalayan trails of Rishikesh. Our weekend hiking & trekking packages are perfect for nature lovers, adventure seekers, and those looking for a refreshing getaway.',
     details: {
@@ -58,11 +65,12 @@ function Package() {
       {/* Hero Section */}
       <div className="relative h-[300px] md:h-[400px]">
         <div
-          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
-          style={{
-            backgroundImage: 'url(./assets/trekking-in-rishikesh-1.jpg)',
-          }}
-        >
+          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]">
+          <img 
+            src={img6} 
+            alt="background" 
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-40" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white text-center">Explore the rishikesh with us</h1>

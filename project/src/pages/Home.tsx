@@ -1,6 +1,13 @@
 import DoorCard from '../components/DoorCard';
 import img1 from "/assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg";
 import img2 from "/assets/Deluxe_room_with_kitchen/Deluxe_Room_4.jpg";
+import img3 from "/assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg";
+import img4 from "/assets/unnamed.jpg";
+import img5 from "/assets/photo.avif";
+import img6 from "/assets/contact.avif";
+import img7 from "/assets/mainLogo.png";
+
+
 
 const doors = [
   {
@@ -21,28 +28,28 @@ const doors = [
     title: 'Classes',
     bgColor: 'bg-[#ec1f27]',
     path: '/classes',
-    imageUrl: './assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg',
+    imageUrl: img3,
     overlayColor: 'bg-[#ec1f27]'
   },
   {
     title: 'Package',
     bgColor: 'bg-[#803f98]',
     path: '/package',
-    imageUrl: './assets/unnamed.jpg',
+    imageUrl: img4,
     overlayColor: 'bg-[#803f98]'
   },
   {
     title: 'Attraction',
     bgColor: 'bg-[#1d4499]',
     path: '/attraction',
-    imageUrl: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=500',
+    imageUrl: img5,
     overlayColor: 'bg-[#1d4499]'
   },
   {
     title: 'Contact',
     bgColor: 'bg-[#13a24b]',
     path: '/contact',
-    imageUrl: 'https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=500',
+    imageUrl: img6,
     overlayColor: 'bg-[#13a24b]'
   }
 ];
@@ -54,7 +61,7 @@ function Home() {
         {/* Logo */}
         <div className="text-center mb-8 md:mb-12">
           <img 
-            src="./assets/mainLogo.png" 
+            src={img7}
             alt="Colourbox Homestay " 
             className="mx-auto h-24 md:h-28 object-contain"
           />

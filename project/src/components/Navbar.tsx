@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
+import img6 from "/assets/Deluxe_room_with_kitchen/logo.png";
+
+
 const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -31,7 +34,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <a href="/" className="w-30 h-15">
               <img
-                src="./assets/Deluxe_room_with_kitchen/logo.png"
+                src={img6}
                 alt="Logo"
                 className="w-55 h-12 object-cover"
               />

@@ -1,11 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import ImageSlider from '../components/ImageSlider';
 
+import yogaImg from "/assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg";
+import musicImg from "/assets/Deluxe_room_with_kitchen/music.jpg";
+import artImg from "/assets/Deluxe_room_with_kitchen/art.jpg";
+import img1 from "/assets/Rishikesh-to-Bali-2.jpg";
+
 const classes = [
   {
     title: 'Yoga Classes',
     images: [
-      { url: './assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-932671557-20035455.jpg', title: 'Yoga Class' }
+      { url: yogaImg, title: 'Yoga Class' }
     ],
     description: {
       points: ['Gentle flows, mindful breathing, and deep stretches for all levels.', 'Learn to connect your body and mind while building strength and flexibility.'],
@@ -15,7 +20,7 @@ const classes = [
   {
     title: 'Music Classes',
     images: [
-      { url: './assets/Deluxe_room_with_kitchen/music.jpg', title: 'Music Class' }
+      { url: musicImg, title: 'Music Class' }
     ],
     description: {
       points: ['Explore rhythm, sound, and melody with classes that focus on various instruments, singing, and music theory.', 'Group drum circles, solo performances, and collaborative jam sessions.'],
@@ -25,7 +30,7 @@ const classes = [
   {
     title: 'Art  Classes',
     images: [
-      { url: './assets/Deluxe_room_with_kitchen/art.jpg', title: 'Cooking Class' }
+      { url: artImg, title: 'Cooking Class' }
     ],
     description: {
       points: ['Get hands-on with painting, drawing, sculpture, and mixed media.', 'Focus on creativity, exploration, and expression.'],
@@ -44,11 +49,12 @@ function Classes() {
     <div className="min-h-screen bg-white">
       <div className="relative h-[300px] md:h-[400px]">
         <div
-          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
-          style={{
-            backgroundImage: 'url(./assets/Rishikesh-to-Bali-2.jpg)',
-          }}
-        >
+          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]">
+          <img 
+            src={img1} 
+            alt="background" 
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-40" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white text-center">Our Classes</h1>

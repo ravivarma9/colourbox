@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
+import img1 from "/assets/mobile.avif";
+
 function Contact() {
   const navigate = useNavigate();
 
@@ -8,11 +10,12 @@ function Contact() {
     <div className="min-h-screen bg-green-50">
       <div className="relative h-[300px] md:h-[400px]">
         <div 
-          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]"
-          style={{ 
-            backgroundImage: 'url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&q=80&w=1500)',
-          }}
-        >
+          className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]">
+          <img 
+            src={img1} 
+            alt="background" 
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-3xl md:text-5xl font-bold text-white text-center">Contact Us</h1>

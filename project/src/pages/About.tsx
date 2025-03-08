@@ -1,3 +1,10 @@
+import img1 from "/assets/IMG_5527acopy.jpg";
+import img2 from "/assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg";
+import img3 from "/assets/Rishikesh-India.-It-is-known-as-the-Gateway-to-the-Garhwal-Himalayas-and-the-Yoga-Capital-of-the-World.jpg";
+import img4 from "/assets/PXL_20250112_062949913copy.jpg";
+import img5 from "/assets/PXL_20250112_063648372copy.jpg";
+import img6 from "/assets/PXL_20250112_063054514.PORTRAITcopy.jpg";
+
 
 function About() {
 
@@ -10,7 +17,7 @@ function About() {
           {/* Large Hero Image */}
           <div className="md:col-span-3 h-[300px] md:h-[400px] rounded-2xl overflow-hidden">
             <img
-              src="./assets/IMG_5527acopy.jpg"
+              src={img1}
               alt="Hero"
               className="w-full h-full object-cover"
             />
@@ -19,14 +26,14 @@ function About() {
           <div className="md:col-span-2 grid gap-4">
             <div className="h-[150px] md:h-[190px] rounded-2xl overflow-hidden">
               <img
-                src="./assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg"
+                src={img2}
                 alt="Rishikesh"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-[150px] md:h-[190px] rounded-2xl overflow-hidden">
               <img
-                src="./assets/Rishikesh-India.-It-is-known-as-the-Gateway-to-the-Garhwal-Himalayas-and-the-Yoga-Capital-of-the-World.jpg"
+                src={img3}
                 alt="Ganges"
                 className="w-full h-full object-cover"
               />
@@ -40,21 +47,21 @@ function About() {
           <div className="md:col-span-2 space-y-4">
             <div className="h-[200px] md:h-[300px] rounded-2xl overflow-hidden">
               <img
-                src="./assets/PXL_20250112_062949913copy.jpg"
+                src={img4}
                 alt="Building"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-[150px] md:h-[200px] rounded-2xl overflow-hidden">
               <img
-                src="./assets/PXL_20250112_063648372copy.jpg"
+                src={img5}
                 alt="Room"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="h-[150px] md:h-[200px] rounded-2xl overflow-hidden bg-yellow-100 flex items-center justify-center p-8">
               <img
-                src="./assets/PXL_20250112_063054514.PORTRAITcopy.jpg"
+                src={img6}
                 alt="Logo"
                 className="w-full h-auto rounded-xl"
               />
