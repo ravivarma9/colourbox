@@ -16,6 +16,9 @@ import img12 from "/assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg";
 import img13 from "/assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg";
 import img14 from "/assets/Deluxe_room_with_kitchen/bhojbasa-8842343.webp";
 import img15 from "/assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg";
+import img16 from "/assets/Deluxe_room_with_kitchen/Patna_Waterfall.jpeg";
+import img17 from "/assets/Deluxe_room_with_kitchen/Vashishta_Caves.jpg";
+import img18 from "/assets/Deluxe_room_with_kitchen/Shree_Neelkanth_Mahadev_Temple.jpg";
 
 
 const attractions = [
@@ -43,7 +46,7 @@ const attractions = [
     id: 'beatles-ashram',
     title: 'The Beatles Ashram (Chaurasi Kutiya)',
     image: img3,
-    distance: 'Around 1.2 km',
+    distance: 'Around 3.6 km',
     description: 'This abandoned ashram gained global fame when The Beatles stayed here in 1968 to learn Transcendental Meditation under Maharishi Mahesh Yogi. Now a heritage site, it features graffiti art, meditation huts, and a tranquil forest setting.',
     details: {
       images: [
@@ -63,7 +66,7 @@ const attractions = [
     id: 'triveni-ghat',
     title: 'Triveni Ghat',
     image: img4,
-    distance: 'Around 1.2 km',
+    distance: 'Around 4.0 km',
     description: 'A sacred bathing ghat where the three rivers—Ganga, Yamuna, and Saraswati—are believed to converge. The evening Ganga Aarti here is a mesmerizing experience of chants, lamps, and devotion.',
     details: {
       images: [
@@ -82,12 +85,12 @@ const attractions = [
   {
     id: 'neelkanth',
     title: 'Shree Neelkanth Mahadev Temple',
-    image: img6,
-    distance: 'Around 1.2 km',
+    image: img18,
+    distance: 'Around 10 km',
     description: 'A revered Shiva temple located at 1,330 meters above sea level, about 32 km from Rishikesh. It marks the mythological site where Lord Shiva consumed poison during the churning of the ocean (Samudra Manthan).',
     details: {
       images: [
-        { url: img6, title: 'Temple View' },
+        { url: img18, title: 'Temple View' },
         { url: img7, title: 'Mountain View' }
       ],
       highlights: [
@@ -103,7 +106,7 @@ const attractions = [
     id: 'waterfall',
     title: 'Garud Chatti Waterfall',
     image: img8,
-    distance: 'Around 1.2 km',
+    distance: 'Around 5.1 km',
     description: 'A hidden gem near Neelkanth Road, this waterfall is a serene escape into nature, surrounded by dense forests and offering a refreshing dip in the cool waters.',
     details: {
       images: [
@@ -123,7 +126,7 @@ const attractions = [
     id: 'rishikund',
     title: 'Rishikund',
     image: img9,
-    distance: 'Around 1.2 km',
+    distance: 'Around 4.4 km',
     description: 'A sacred pond near Triveni Ghat, believed to have been blessed by the River Goddess Yamuna. It reflects the image of Raghunath Temple and has deep spiritual significance.',
     details: {
       images: [
@@ -143,7 +146,7 @@ const attractions = [
     id: 'kunjariTemple',
     title: 'Kunjapuri Temple',
     image: img11,
-    distance: 'Around 1.2 km',
+    distance: 'Around 20 km',
     description: 'A hilltop temple offering breathtaking sunrise views of the Himalayas and the Ganges valley.',
     details: {
       images: [
@@ -156,12 +159,12 @@ const attractions = [
   {
     id: 'vashishtaCaves',
     title: 'Vashishta Caves',
-    image: img12,
-    distance: 'Around 1.2 km',
+    image: img17,
+    distance: 'Around 17 km',
     description: 'An ancient meditation cave along the Ganges, known for its deep spiritual aura and peaceful atmosphere.',
     details: {
       images: [
-        { url: img12, title: 'Cave View' },
+        { url: img17, title: 'Cave View' },
         { url: img9, title: 'River View' }
       ],
       note: 'October to March (less humid, better river views)'
@@ -170,12 +173,12 @@ const attractions = [
   {
     id: 'patnaWaterfall',
     title: 'Patna Waterfall',
-    image: img13,
-    distance: 'Around 1.2 km',
+    image: img16,
+    distance: 'Around 5.3 km',
     description: 'A picturesque waterfall named after a village nearby, famous for its limestone caves and serene surroundings.',
     details: {
       images: [
-        { url: img13, title: 'Waterfall View' },
+        { url: img16, title: 'Waterfall View' },
         { url: img9, title: 'Surrounding View' }
       ],
       note: 'September to February (after monsoon for full water flow)'
