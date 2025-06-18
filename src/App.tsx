@@ -10,15 +10,14 @@ import Attraction from './pages/Attraction';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
-// Wrapper component to conditionally render Navbar
+// Wrapper component to conditionally render Navbar and Footer
 const AppContent = () => {
   const location = useLocation();
   const isHome = location.pathname === '/';
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
-      {!isHome && <Navbar />}
-      <div className={`flex-grow ${!isHome ? 'pt-16' : ''}`}>
+      <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
