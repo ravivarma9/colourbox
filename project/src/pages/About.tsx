@@ -3,7 +3,7 @@ import img2 from "/assets/The-Most-Mysterious-Divine-Temples-in-Rishikesh.jpg";
 import img3 from "/assets/Rishikesh-India.-It-is-known-as-the-Gateway-to-the-Garhwal-Himalayas-and-the-Yoga-Capital-of-the-World.jpg";
 import img4 from "/assets/PXL_20250112_062949913copy.jpg";
 import img5 from "/assets/PXL_20250112_063648372copy.jpg";
-import img6 from "/assets/PXL_20250112_063054514.PORTRAITcopy.jpg";
+import img6 from "/assets/PXL_20250112_063054514.PORTRAITcopy.jpeg";
 
 
 function About() {
@@ -59,7 +59,7 @@ function About() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="h-[150px] md:h-[200px] rounded-2xl overflow-hidden bg-yellow-100 flex items-center justify-center p-8">
+            <div className="h-[150px] md:h-[200px] rounded-2xl overflow-hidden bg-yellow-100 flex items-center justify-center">
               <img
                 src={img6}
                 alt="Logo"
