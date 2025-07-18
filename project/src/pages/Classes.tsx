@@ -18,15 +18,26 @@ const classes = [
     }
   },
   {
-    title: 'Music Classes',
-    images: [
-      { url: musicImg, title: 'Music Class' }
+  title: 'Music Classes',
+  images: [{ url: musicImg, title: 'Music Class' }],
+  description: {
+    points: [
+      'Explore rhythm, sound, and melody with classes that focus on various instruments, singing, and music theory.',
+      'Group drum circles, solo performances, and collaborative jam sessions.'
     ],
-    description: {
-      points: ['Explore rhythm, sound, and melody with classes that focus on various instruments, singing, and music theory.', 'Group drum circles, solo performances, and collaborative jam sessions.'],
-      notes: ['Unlock your musical potential, whether you are a beginner or experienced.', 'Use music as a form of self-expression and connection.']
-    }
-  },
+    highlights: [
+      { icon: '🎸', label: 'Guitar Classes', detail: 'Learn chords, strumming, fingerstyle, and lead techniques. All genres, all levels welcome!' },
+      { icon: '🎹', label: 'Harmonium Classes', detail: 'Master scales, ragas, and devotional music. Dive into Indian classical traditions.' },
+      { icon: '🎤', label: 'Vocal Classes', detail: 'Improve pitch, tone, and breath control. Explore classical, contemporary, and folk styles.' },
+      { icon: '🌐', label: 'Online Classes Available!', detail: 'Learn conveniently from anywhere with our interactive online sessions.' }
+    ],
+    notes: [
+      'Unlock your musical potential, whether you are a beginner or experienced.',
+      'Use music as a form of self-expression and connection.'
+    ]
+  }
+}
+,
   {
     title: 'Art  Classes',
     images: [
@@ -74,6 +85,13 @@ function Classes() {
                 <ul className="list-disc list-inside text-gray-700">
                   {classItem.description.points.map((point, i) => (
                     <li key={i}>{point}</li>
+                  ))}
+                </ul>
+                <ul className="mt-4 space-y-3 text-gray-700">
+                  {classItem.description.highlights?.map((item, idx) => (
+    <p key={idx}>
+      {item.icon} <strong>{item.label}</strong> – {item.detail}
+    </p>
                   ))}
                 </ul>
                 <h3 className="mt-6 font-semibold text-lg">Class Benefits</h3>
