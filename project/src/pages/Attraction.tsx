@@ -6,14 +6,11 @@ import img2 from "/assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishike
 import img3 from "/assets/Deluxe_room_with_kitchen/Beatles_Ashram,_Rishikesh,_India_(front).jpg";
 import img4 from "/assets/Deluxe_room_with_kitchen/Triveni_Ghat_Rishikesh_02.jpg";
 import img5 from "/assets/Deluxe_room_with_kitchen/licensed-image.jpeg";
-import img6 from "/assets/Deluxe_room_with_kitchen/Tungnath-temple-Opening.jpg";
 import img7 from "/assets/Deluxe_room_with_kitchen/Gangotri-glacier-state-one-Himalayas-India-Uttarakhand.webp";
 import img8 from "/assets/Deluxe_room_with_kitchen/neer-waterfall-rishikesh.jpg";
 import img9 from "/assets/Deluxe_room_with_kitchen/Rishikund.jpg";
 import img10 from "/assets/Deluxe_room_with_kitchen/ganga-beach-rishikesh-tourism-entry-ticket-price.jpg";
 import img11 from "/assets/Deluxe_room_with_kitchen/kunjapuri-temple-03.jpg";
-import img12 from "/assets/Deluxe_room_with_kitchen/View_of_Gaumukh.jpg";
-import img13 from "/assets/Deluxe_room_with_kitchen/IMG_20220212_163841.jpg";
 import img14 from "/assets/Deluxe_room_with_kitchen/bhojbasa-8842343.webp";
 import img15 from "/assets/Deluxe_room_with_kitchen/lakshman-jhula-bridge-rishikesh-uttrakhand-city-1-hero.jpeg";
 import img16 from "/assets/Deluxe_room_with_kitchen/Patna_Waterfall.jpeg";
@@ -44,7 +41,7 @@ const attractions = [
   },
   {
     id: 'beatles-ashram',
-    title: 'The Beatles Ashram (Chaurasi Kutiya)',
+    title: ' (Chaurasi Kut)',
     image: img3,
     distance: 'Around 3.6 km',
     description: 'This abandoned ashram gained global fame when The Beatles stayed here in 1968 to learn Transcendental Meditation under Maharishi Mahesh Yogi. Now a heritage site, it features graffiti art, meditation huts, and a tranquil forest setting.',
@@ -213,9 +210,9 @@ function Attraction() {
       <div className="relative h-[300px] md:h-[400px] mb-8 mt-4">
         <div
           className="absolute inset-0 bg-cover bg-center rounded-3xl overflow-hidden mt-5 mx-[20px]">
-          <img 
-            src={img15} 
-            alt="Hero background" 
+          <img
+            src={img15}
+            alt="Hero background"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-40" />
@@ -258,6 +255,64 @@ function Attraction() {
             </div>
           ))}
         </div>
+
+        {/* Nearby Attractions Buttons Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6">Nearby Attractions</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {[
+              { name: "Lakshman Temple", distance: "850 m" },
+              { name: "Lakshman Jhula & Beach", distance: "1 km" },
+              { name: "Sai Ghat", distance: "1 km" },
+              { name: "Trayambakeshwar Temple", distance: "1.2 km" },
+              { name: "Nim Beach", distance: "1.5 km" },
+              { name: "Secret waterfall", distance: "1.5 km" },
+              { name: "The Divine Life Society", distance: "1.8 km" },
+              { name: "Ram Jhula & Beach", distance: "2 km" },
+              { name: "Omkarananda Ashram", distance: "2.1 km" },
+              { name: "Gita Bhawan", distance: "2.6 km" },
+              { name: "Ganga Beach", distance: "2.6 km" },
+              { name: "Janaki Bridge", distance: "2.8 km" },
+              { name: "Parmarth Niketan Ashram", distance: "3 km" },
+              { name: "Muni Ki Reti", distance: "3.2 km" },
+              { name: "Gurdwara Sri Hemkund Sahib", distance: "3.3 km" },
+              { name: "Swarg Ashram", distance: "3.4 km" },
+              { name: "Bhootnath Temple", distance: "3.4 km" },
+              { name: "The Beatles Ashram	", distance: "3.5 km" },
+              { name: "Shri Bharat Mandir", distance: "4.1 km" },
+              { name: "Rishikund", distance: "4.4 km" },
+              { name: "Triveni Ghat	", distance: "4.6 km" },
+              { name: "Neergarh Waterfall", distance: "5 km" },
+              { name: "Patna Waterfall", distance: "5.3 km" },
+              { name: "Marine Drive (Aastha Path)", distance: "8 km" },
+              { name: "Shree Neelkanth Mahadev Temple", distance: "10.6 km" },
+              { name: "Shivpuri", distance: "10.9 km" },
+              { name: "Jhilmil Gufa	", distance: "14.9 km" },
+              { name: "Jumpin Heights - The OG Bungy People!", distance: "17.6 km" },
+              { name: "Rajaji National Park", distance: "19 km" },
+              { name: "Har Ki Pauri, Haridwar", distance: "26 km" },
+              { name: "Maa Mansa Devi Temple, Haridwar", distance: "28.2 km" },
+              { name: "Shri Maa Chandi Devi Temple, Haridwar", distance: "30.7 km" },
+              { name: "Shree Daksheshwar Mahadev, Haridwar", distance: "31.1 km" },
+              { name: "Devprayag", distance: "64.6 km" },
+              
+            ].map((place, index) => (
+              <a
+                key={index}
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.name + ' Rishikesh')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <button className="w-full flex justify-between items-center px-4 py-3 bg-white border border-gray-300 rounded-xl shadow hover:bg-gray-100 transition">
+                  <span className="text-gray-800 font-medium">{place.name}</span>
+                  <span className="text-sm text-gray-500">{place.distance}</span>
+                </button>
+              </a>
+            ))}
+          </div>
+        </div>
+
 
         {/* Modal Overlay */}
         {isModalOpen && (

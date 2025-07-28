@@ -171,7 +171,7 @@ function Home() {
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We believe in sustainable living and supporting the local community. 
-                  Our hostel is crafted using eco-friendly materials, and we work 
+                  Our homestay is crafted using eco-friendly materials, and we work 
                   closely with local artisans and businesses to provide you with an 
                   authentic Rishikesh experience.
                 </p>

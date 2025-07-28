@@ -16,7 +16,7 @@ function Footer() {
           
           <div className="flex space-x-6">
             <a 
-              href="https://m.facebook.com/profile.php?id=61572516806851" 
+              href="https://www.facebook.com/people/Colour-Box-Homestay/61578632048431/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-700 transition-colors"
