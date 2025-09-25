@@ -5,8 +5,23 @@ import yogaImg from "/assets/Deluxe_room_with_kitchen/pexels-yoga-course-india-9
 import musicImg from "/assets/Deluxe_room_with_kitchen/music.jpg";
 import artImg from "/assets/Deluxe_room_with_kitchen/art.jpg";
 import img1 from "/assets/Rishikesh-to-Bali-2.jpg";
+import djambe from "/assets/Deluxe_room_with_kitchen/DJambe.jpeg";
+
 
 const classes = [
+  {
+    title: 'Djembe Drum Classes',
+    images: [
+      { url: djambe, title: 'Djembe Drum Classes' }
+    ],
+    description: {
+      points: ['Feel the rhythm of Africa in Rishikesh with Djembe drum classes! Whether you’re a beginner or rhythm enthusiast, the Djembe drum classes focus on teaching hand techniques and beats. If you’re in Rishikesh, experience the joy of drumming in our vibrant and interactive setting.'],
+      highlights: [
+      { icon: '', label: 'Timings', detail: 'Friday, Saturday & Sunday (6.30 P.M. to 7.15 P.M.)' }
+    ],
+      notes: ['Immerse yourself in traditional African rhythms and drumming techniques.', 'Enhance focus, coordination, and relaxation through rhythmic meditation.']
+    }
+  },
   {
     title: 'Yoga Classes',
     images: [
