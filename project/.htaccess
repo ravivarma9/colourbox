@@ -1,3 +1,5 @@
+DirectoryIndex index.html
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -8,7 +10,7 @@
   RewriteRule ^ - [L]
   
   # Rewrite everything else to index.html to support SPA routing
-  RewriteRule ^ index.html [L]
+  RewriteRule . /index.html [L]
 </IfModule>
 
 # Serve files with the correct MIME types
