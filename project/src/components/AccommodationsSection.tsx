@@ -16,7 +16,7 @@ const AccommodationsSection = () => {
         'We offers the perfect combination of luxury and tranquility, ensuring a comfortable stay in the spiritual and scenic town of Rishikesh.',
       image: deluxeRoom,
       features: ['King bed', 'Private bathroom', 'Private Kitchen'],
-      price: 'From ₹1k/night',
+      price: 'From ₹1300/night',
     },
     {
       id: 'standard',
@@ -25,7 +25,7 @@ const AccommodationsSection = () => {
         'Comfortable and well-appointed rooms for budget-conscious travelers looking for a peaceful stay in Rishikesh.',
       image: standardRoom,
       features: ['Queen bed', 'Room service'],
-      price: 'From ₹800/night',
+      price: 'From ₹1000/night',
     },
     {
       id: 'dorm',
